@@ -3,16 +3,15 @@
 Run Node.js Server
 1. cd BackEnd
 2. add .env file
-    with 
-        PORT=4000
-        NODE_ENV=development
-        DEV=false
-        MONGO_URI="mongodb://localhost:27017/userdb"
-        FactorAPIKey = "aa697d8e-d83c-11eb-8089-0200cd936042"
-        TokenKey = "Secret"
-        PasswordSalt = 5
-        SMTP_USER = "your's gmail account"
-        SMTP_PASSWORD = "your's gmail account password"
+
+0. PORT=4000
+0. NODE_ENV=development
+0. DEV=false
+0. MONGO_URI="mongodb://localhost:27017/userdb"
+0. TokenKey = "Secret"
+0. PasswordSalt = 5
+0. SMTP_USER = "your's gmail account"
+0. SMTP_PASSWORD = "your's gmail account password"
 
 3. npm install
 4. npm start
